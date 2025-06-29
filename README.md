@@ -18,9 +18,6 @@ Um aplicativo simples de criptografia de senhas, com chave personalizada e inter
 ## Como usar
 
 1. Execute o arquivo `Criptograf.py`:
-    ```bash
-    python Criptograf.py
-    ```
 
 2. Insira o **nome da senha**, **senha original** e **chave personalizada**.
 
@@ -33,7 +30,11 @@ Criptograf/
 ├── Criptograf.py
 ├── requirements.txt
 ├── README.md
-└── Senhas.txt  # (gerado automaticamente)
+├── dist/
+│   ├── Criptograf.exe
+│   └── cadeado.ico
+└── Senhas.txt  # (gerado automaticamente pelo programa)
+
 ```
 
 ## Executável
@@ -44,7 +45,7 @@ Para quem quiser testar sem instalar o Python, o executável Windows está dispo
 - O ícone personalizado (`.ico`) também está incluído.
 - Nenhuma instalação é necessária.
 
-⚠️ Caso o Windows exiba um alerta de segurança, clique em "Mais informações" e depois em "Executar assim mesmo". Isso é comum com arquivos `.exe` não assinados digitalmente.
+ Caso o Windows exiba um alerta de segurança, clique em "Mais informações" e depois em "Executar assim mesmo". Isso é comum com arquivos `.exe` não assinados digitalmente.
 
 
 ## Autor
